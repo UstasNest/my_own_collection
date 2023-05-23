@@ -1,0 +1,5 @@
+---
+- name: creating file
+    my_own_module:
+      content: {{ content }}
+      path: {{ path }}
