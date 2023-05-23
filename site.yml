@@ -1,0 +1,9 @@
+---
+- name: testing module
+  hosts: localhost
+  tasks:
+    - name: creating file
+      my_own_module:
+        content: "hello world"
+        path: "/home/vagrant/github/ansible/library/test"
+

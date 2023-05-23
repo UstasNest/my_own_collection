@@ -1,0 +1,6 @@
+---
+- name: testing module
+  hosts: localhost
+  collections: my_own_namespace.yandex_cloud_elk
+  roles:
+    - single_task_role
